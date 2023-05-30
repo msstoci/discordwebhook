@@ -4,7 +4,7 @@ This package provides a super simple interface to send discord messages through 
 
 ### Installation
 ```
-go get github.com/gtuk/discordwebhook
+go get github.com/msstoci/discordwebhook
 ```
 
 ### Example
@@ -14,7 +14,7 @@ For a more advanced message structure see the structs in types.go and https://bi
 ```
 package main
 
-import "github.com/gtuk/discordwebhook"
+import "github.com/msstoci/discordwebhook"
 
 func main() {
    var username = "BotUser"
